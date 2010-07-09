@@ -1,0 +1,7 @@
+--- 
+- permission_id: 2
+  group_type_id: 3
+  id: 1
+- permission_id: 3
+  group_type_id: 3
+  id: 2

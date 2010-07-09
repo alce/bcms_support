@@ -1,0 +1,9 @@
+--- 
+- name: Core
+  created_at: 2010-07-08 02:46:20 Z
+  updated_at: 2010-07-08 02:46:20 Z
+  id: 1
+- name: Categorization
+  created_at: 2010-07-08 02:46:21 Z
+  updated_at: 2010-07-08 02:46:21 Z
+  id: 2

@@ -1,0 +1,113 @@
+---
+- id: 1
+  page_id: 1
+  version: 1
+  name: Home
+  path: /
+  template_file_name: default.html.erb
+  cacheable: true
+  hidden: false
+  published: true
+  deleted: false
+  archived: false
+  version_comment: Created
+  created_by_id: 1
+  updated_by_id: 1
+  created_at: 2010-07-08 02:46:26 Z
+  updated_at: 2010-07-08 02:46:26 Z
+- id: 2
+  page_id: 2
+  version: 1
+  name: Page Not Found
+  path: /system/not_found
+  template_file_name: default.html.erb
+  cacheable: true
+  hidden: true
+  published: true
+  deleted: false
+  archived: false
+  version_comment: Created
+  created_by_id: 1
+  updated_by_id: 1
+  created_at: 2010-07-08 02:46:26 Z
+  updated_at: 2010-07-08 02:46:26 Z
+- id: 3
+  page_id: 3
+  version: 1
+  name: Access Denied
+  path: /system/access_denied
+  template_file_name: default.html.erb
+  cacheable: true
+  hidden: true
+  published: true
+  deleted: false
+  archived: false
+  version_comment: Created
+  created_by_id: 1
+  updated_by_id: 1
+  created_at: 2010-07-08 02:46:26 Z
+  updated_at: 2010-07-08 02:46:26 Z
+- id: 4
+  page_id: 4
+  version: 1
+  name: Server Error
+  path: /system/server_error
+  template_file_name: default.html.erb
+  cacheable: true
+  hidden: true
+  published: true
+  deleted: false
+  archived: false
+  version_comment: Created
+  created_by_id: 1
+  updated_by_id: 1
+  created_at: 2010-07-08 02:46:26 Z
+  updated_at: 2010-07-08 02:46:26 Z
+- id: 5
+  page_id: 2
+  version: 2
+  name: Page Not Found
+  path: /system/not_found
+  template_file_name: default.html.erb
+  cacheable: true
+  hidden: true
+  published: true
+  deleted: false
+  archived: false
+  version_comment: Html Block 'Page Not Found' was added to the 'main' container
+  created_by_id: 1
+  updated_by_id: 1
+  created_at: 2010-07-08 02:46:26 Z
+  updated_at: 2010-07-08 02:46:26 Z
+- id: 6
+  page_id: 3
+  version: 2
+  name: Access Denied
+  path: /system/access_denied
+  template_file_name: default.html.erb
+  cacheable: true
+  hidden: true
+  published: true
+  deleted: false
+  archived: false
+  version_comment: Html Block 'Access Denied' was added to the 'main' container
+  created_by_id: 1
+  updated_by_id: 1
+  created_at: 2010-07-08 02:46:26 Z
+  updated_at: 2010-07-08 02:46:26 Z
+- id: 7
+  page_id: 4
+  version: 2
+  name: Server Error
+  path: /system/server_error
+  template_file_name: default.html.erb
+  cacheable: true
+  hidden: true
+  published: true
+  deleted: false
+  archived: false
+  version_comment: Html Block 'Server Error' was added to the 'main' container
+  created_by_id: 1
+  updated_by_id: 1
+  created_at: 2010-07-08 02:46:26 Z
+  updated_at: 2010-07-08 02:46:26 Z

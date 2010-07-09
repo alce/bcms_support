@@ -1,0 +1,19 @@
+--- 
+- name: Guest
+  created_at: 2010-07-08 02:46:25 Z
+  updated_at: 2010-07-08 02:46:25 Z
+  cms_access: false
+  id: 1
+  guest: true
+- name: Registered Public User
+  created_at: 2010-07-08 02:46:25 Z
+  updated_at: 2010-07-08 02:46:25 Z
+  cms_access: false
+  id: 2
+  guest: false
+- name: CMS User
+  created_at: 2010-07-08 02:46:25 Z
+  updated_at: 2010-07-08 02:46:25 Z
+  cms_access: true
+  id: 3
+  guest: false

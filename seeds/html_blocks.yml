@@ -1,0 +1,37 @@
+--- 
+- updated_by_id: 1
+  name: Page Not Found
+  created_at: 2010-07-08 02:46:26 Z
+  updated_at: 2010-07-08 02:46:26 Z
+  published: true
+  created_by_id: 1
+  lock_version: 0
+  archived: false
+  id: 1
+  deleted: false
+  version: 1
+  content: <p>The page you tried to access does not exist on this server.</p>
+- updated_by_id: 1
+  name: Access Denied
+  created_at: 2010-07-08 02:46:26 Z
+  updated_at: 2010-07-08 02:46:26 Z
+  published: true
+  created_by_id: 1
+  lock_version: 0
+  archived: false
+  id: 2
+  deleted: false
+  version: 1
+  content: <p>You have tried to reach a resource or page which you do not have permission to view.</p>
+- updated_by_id: 1
+  name: Server Error
+  created_at: 2010-07-08 02:46:26 Z
+  updated_at: 2010-07-08 02:46:26 Z
+  published: true
+  created_by_id: 1
+  lock_version: 0
+  archived: false
+  id: 3
+  deleted: false
+  version: 1
+  content: <p>The server encountered an unexpected condition that prevented it from fulfilling the request.</p>

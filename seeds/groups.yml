@@ -1,0 +1,19 @@
+--- 
+- name: Guest
+  created_at: 2010-07-08 02:46:25 Z
+  group_type_id: 1
+  code: guest
+  updated_at: 2010-07-08 02:46:25 Z
+  id: 1
+- name: Cms Administrators
+  created_at: 2010-07-08 02:46:25 Z
+  group_type_id: 3
+  code: cms-admin
+  updated_at: 2010-07-08 02:46:25 Z
+  id: 2
+- name: Content Editors
+  created_at: 2010-07-08 02:46:25 Z
+  group_type_id: 3
+  code: content-editor
+  updated_at: 2010-07-08 02:46:25 Z
+  id: 3

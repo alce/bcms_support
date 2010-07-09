@@ -1,0 +1,13 @@
+--- 
+- salt: 8829de0bd0a925580b5603afcbbf6ee410b72673
+  expires_at: 
+  created_at: 2010-07-08 02:46:25 Z
+  remember_token_expires_at: 
+  crypted_password: a65cdaa9260db5207e105d66f24f9ef08b4a6849
+  updated_at: 2010-07-08 02:46:25 Z
+  id: 1
+  remember_token: 
+  last_name: Administrator
+  login: cmsadmin
+  first_name: CMS
+  email: cmsadmin@example.com

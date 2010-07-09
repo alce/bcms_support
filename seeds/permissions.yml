@@ -1,0 +1,22 @@
+--- 
+- name: administrate
+  created_at: 2010-07-08 02:46:25 Z
+  updated_at: 2010-07-08 02:46:25 Z
+  for_module: 
+  id: 1
+  full_name: Administer CMS
+  description: Allows users to administer the CMS, including adding users and groups.
+- name: edit_content
+  created_at: 2010-07-08 02:46:25 Z
+  updated_at: 2010-07-08 02:46:25 Z
+  for_module: 
+  id: 2
+  full_name: Edit Content
+  description: Allows users to Add, Edit and Delete both Pages and Blocks. Can Save (but not Publish) and Assign them as well.
+- name: publish_content
+  created_at: 2010-07-08 02:46:25 Z
+  updated_at: 2010-07-08 02:46:25 Z
+  for_module: 
+  id: 3
+  full_name: Publish Content
+  description: Allows users to Save and Publish, Hide and Archive both Pages and Blocks.

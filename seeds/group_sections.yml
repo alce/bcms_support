@@ -1,0 +1,19 @@
+--- 
+- section_id: 1
+  id: 1
+  group_id: 1
+- section_id: 2
+  id: 2
+  group_id: 1
+- section_id: 1
+  id: 3
+  group_id: 2
+- section_id: 2
+  id: 4
+  group_id: 2
+- section_id: 1
+  id: 5
+  group_id: 3
+- section_id: 2
+  id: 6
+  group_id: 3

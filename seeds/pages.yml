@@ -1,0 +1,77 @@
+--- 
+- updated_by_id: 1
+  name: Home
+  created_at: 2010-07-08 02:46:26 Z
+  title: 
+  template_file_name: default.html.erb
+  updated_at: 2010-07-08 02:46:26 Z
+  published: true
+  created_by_id: 1
+  lock_version: 0
+  language: 
+  archived: false
+  id: 1
+  deleted: false
+  version: 1
+  path: /
+  description: 
+  keywords: 
+  hidden: false
+  cacheable: true
+- updated_by_id: 1
+  name: Page Not Found
+  created_at: 2010-07-08 02:46:26 Z
+  title: 
+  template_file_name: default.html.erb
+  updated_at: 2010-07-08 02:46:26 Z
+  published: true
+  created_by_id: 1
+  lock_version: 0
+  language: 
+  archived: false
+  id: 2
+  deleted: false
+  version: 2
+  path: /system/not_found
+  description: 
+  keywords: 
+  hidden: true
+  cacheable: true
+- updated_by_id: 1
+  name: Access Denied
+  created_at: 2010-07-08 02:46:26 Z
+  title: 
+  template_file_name: default.html.erb
+  updated_at: 2010-07-08 02:46:26 Z
+  published: true
+  created_by_id: 1
+  lock_version: 0
+  language: 
+  archived: false
+  id: 3
+  deleted: false
+  version: 2
+  path: /system/access_denied
+  description: 
+  keywords: 
+  hidden: true
+  cacheable: true
+- updated_by_id: 1
+  name: Server Error
+  created_at: 2010-07-08 02:46:26 Z
+  title: 
+  template_file_name: default.html.erb
+  updated_at: 2010-07-08 02:46:26 Z
+  published: true
+  created_by_id: 1
+  lock_version: 0
+  language: 
+  archived: false
+  id: 4
+  deleted: false
+  version: 2
+  path: /system/server_error
+  description: 
+  keywords: 
+  hidden: true
+  cacheable: true

@@ -1,0 +1,16 @@
+class Connector < ActiveRecord::Base; end
+class ContentTypeGroup < ActiveRecord::Base; end
+class ContentType < ActiveRecord::Base; end
+class GroupPermission < ActiveRecord::Base; end
+class GroupSection < ActiveRecord::Base; end
+class GroupTypePermission < ActiveRecord::Base; end
+class GroupType < ActiveRecord::Base; end
+class Group < ActiveRecord::Base; end
+class HtmlBlock < ActiveRecord::Base; end
+class Page < ActiveRecord::Base; end
+class Permission < ActiveRecord::Base; end
+class SectionNode < ActiveRecord::Base; end
+class Section < ActiveRecord::Base; end
+class Site < ActiveRecord::Base; end
+class UserGroupMembership < ActiveRecord::Base; end
+class User < ActiveRecord::Base; end

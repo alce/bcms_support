@@ -2,52 +2,44 @@ require 'rubygems'
 require 'rake'
 
 begin
+  begin
+    require 'spec/rake/spectask'
+  rescue LoadError
+    puts "Rspec is not available. Itstall with sudo gem install rspec"
+  end
   require 'jeweler'
+  
   Jeweler::Tasks.new do |gem|
-    gem.name = "bcms_test_help"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.name = "bcms_test_support"
+    gem.summary = %Q{Support for testing BrowserCMS modules}
+    gem.description = %Q{Support for testing BrowserCMS modules}
     gem.email = "alce@mac.com"
-    gem.homepage = "http://github.com/reboot/bcms_test_help"
+    gem.homepage = "http://github.com/alce/bcms_test_support"
     gem.authors = ["Juan Alvarez"]
-    gem.add_development_dependency "thoughtbot-shoulda", ">= 0"
-    # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
+    gem.files = %w[LICENCE README.markdown Rakefile] + Dir.glob("{rails,lib,spec,seeds}/**/*")
+    gem.add_development_dependency 'rspec'
   end
   Jeweler::GemcutterTasks.new
 rescue LoadError
   puts "Jeweler (or a dependency) not available. Install it with: gem install jeweler"
 end
 
-require 'rake/testtask'
-Rake::TestTask.new(:test) do |test|
-  test.libs << 'lib' << 'test'
-  test.pattern = 'test/**/test_*.rb'
-  test.verbose = true
-end
+desc 'Default: run unit specs'
+task :default => :spec
 
-begin
-  require 'rcov/rcovtask'
-  Rcov::RcovTask.new do |test|
-    test.libs << 'test'
-    test.pattern = 'test/**/test_*.rb'
-    test.verbose = true
+if defined? Spec
+  desc 'Test bcms test support gem'
+  Spec::Rake::SpecTask.new('spec') do |t|
+    t.spec_files = FileList['spec/**/*_spec.rb']
+    t.spec_opts = ["-c"]
   end
-rescue LoadError
-  task :rcov do
-    abort "RCov is not available. In order to run rcov, you must: sudo gem install spicycode-rcov"
+  
+  desc 'Test bcms test support gem'
+  Spec::Rake::SpecTask.new('specdoc') do |t|
+    t.spec_files = FileList['spec/**/*_spec.rb']
+    t.spec_opts = ["--format specdoc", "-c"]
   end
 end
+  
+  
 
-task :test => :check_dependencies
-
-task :default => :test
-
-require 'rake/rdoctask'
-Rake::RDocTask.new do |rdoc|
-  version = File.exist?('VERSION') ? File.read('VERSION') : ""
-
-  rdoc.rdoc_dir = 'rdoc'
-  rdoc.title = "bcms_test_help #{version}"
-  rdoc.rdoc_files.include('README*')
-  rdoc.rdoc_files.include('lib/**/*.rb')
-end
