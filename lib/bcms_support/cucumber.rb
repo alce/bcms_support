@@ -20,4 +20,4 @@ if defined? ApplicationController
   end
 end
 
-World(BcmsSupport::Cucumber) if defined? World
+World(BcmsSupport::Cucumber) if defined? Cucumber

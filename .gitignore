@@ -19,6 +19,6 @@ rdoc
 pkg
 *.gem
 .document
-.gemspec
+*.gemspec
 
 ## PROJECT::SPECIFIC
