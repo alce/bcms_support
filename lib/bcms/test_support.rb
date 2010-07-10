@@ -12,6 +12,10 @@ module Bcms
       @request.session[:user_id] = user ? user.id : nil
     end
     
+    def publish_all_pages
+      Page.all.each(&:publish)
+    end
+    
     def seed_bcms_data
       TABLES_WITH_SEED_DATA.each do |t|
         ActiveRecord::Base.transaction do 
