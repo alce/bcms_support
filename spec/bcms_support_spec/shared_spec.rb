@@ -1,8 +1,8 @@
 require File.join(File.dirname(__FILE__), '..', 'spec_helper')
-require 'bcms/test_support'
+require 'bcms_support/shared'
 
-describe 'TestSupport' do
-  include Bcms::TestSupport
+describe BcmsSupport::Shared do
+  include BcmsSupport::Shared
   
   describe "#seed_bcms_data" do
     class HtmlBlockVersion < ActiveRecord::Base; end

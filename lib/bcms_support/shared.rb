@@ -1,16 +1,12 @@
-module Bcms
-  module TestSupport
-
+module BcmsSupport
+  module Shared
+    
     TABLES_WITH_SEED_DATA = %w[connectors content_type_groups content_types group_permissions group_sections 
                               group_type_permissions group_types groups html_block_versions html_blocks pages
                               page_versions permissions section_nodes sections sites user_group_memberships 
                               users]
    
-    SEEDS_PATH = File.join(File.dirname(__FILE__), '..', '..', 'seeds')
-    
-    def login_as(user)
-      @request.session[:user_id] = user ? user.id : nil
-    end
+    SEEDS_PATH = File.join(File.dirname(__FILE__), '..','..','seeds')    
     
     def publish_all_pages
       Page.all.each(&:publish)
@@ -26,6 +22,6 @@ module Bcms
           end        
         end         
       end
-    end
+    end    
   end
 end

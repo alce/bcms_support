@@ -10,7 +10,7 @@ begin
   require 'jeweler'
   
   Jeweler::Tasks.new do |gem|
-    gem.name = "bcms_test_support"
+    gem.name = "bcms_support"
     gem.summary = %Q{Support for testing BrowserCMS modules}
     gem.description = %Q{Support for testing BrowserCMS modules}
     gem.email = "alce@mac.com"

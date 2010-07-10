@@ -4,8 +4,8 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = %q{bcms_test_support}
-  s.version = "0.0.1"
+  s.name = %q{bcms_support}
+  s.version = "0.0.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Juan Alvarez"]
@@ -19,10 +19,10 @@ Gem::Specification.new do |s|
   s.files = [
     "README.markdown",
      "Rakefile",
-     "lib/bcms/cucumber_support.rb",
-     "lib/bcms/test_support.rb",
-     "lib/bcms_test_support.rb",
-     "rails/init.rb",
+     "lib/bcms_support.rb",
+     "lib/bcms_support/cucumber.rb",
+     "lib/bcms_support/shared.rb",
+     "lib/bcms_support/test.rb",
      "seeds/connectors.yml",
      "seeds/content_type_groups.yml",
      "seeds/content_types.yml",
@@ -43,7 +43,9 @@ Gem::Specification.new do |s|
      "seeds/users.yml",
      "spec/bcms_models.rb",
      "spec/bcms_schema.rb",
-     "spec/bcms_spec/test_support_spec.rb",
+     "spec/bcms_support_spec/cucumber_spec.rb",
+     "spec/bcms_support_spec/shared_spec.rb",
+     "spec/bcms_support_spec/test_spec.rb",
      "spec/spec_helper.rb"
   ]
   s.homepage = %q{http://github.com/alce/bcms_test_support}
@@ -54,7 +56,9 @@ Gem::Specification.new do |s|
   s.test_files = [
     "spec/bcms_models.rb",
      "spec/bcms_schema.rb",
-     "spec/bcms_spec/test_support_spec.rb",
+     "spec/bcms_support_spec/cucumber_spec.rb",
+     "spec/bcms_support_spec/shared_spec.rb",
+     "spec/bcms_support_spec/test_spec.rb",
      "spec/spec_helper.rb"
   ]
 
