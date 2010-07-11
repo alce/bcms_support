@@ -14,7 +14,7 @@ begin
     gem.summary = %Q{Support for testing BrowserCMS modules}
     gem.description = %Q{Support for testing BrowserCMS modules}
     gem.email = "alce@mac.com"
-    gem.homepage = "http://github.com/alce/bcms_test_support"
+    gem.homepage = "http://github.com/alce/bcms_support"
     gem.authors = ["Juan Alvarez"]
     gem.files = %w[LICENCE README.markdown Rakefile] + Dir.glob("{rails,lib,spec,seeds}/**/*")
     gem.add_development_dependency 'rspec'
