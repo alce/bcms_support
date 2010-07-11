@@ -51,9 +51,9 @@ Edit features/support/env.rb
 At the moment, this library only provides 3 methods that can be called from Test cases, Example groups or step definitions.
 Please note that BcmsSupport is *very* young and as the collection of methods grow, the API may also change dramatically.
 
-*seed\_bcms\_data* => loads all data seeded by BrowserCMS' migrations into your test database.
-*login/_as(user)* => Simulates a logged in user by setting session[:user_id] to the passed in user's id.
-*publish\_all\_pages* => Page.all.each(:&publish)
+  * __seed\_bcms\_data__ => loads all data seeded by BrowserCMS' migrations into your test database.
+  * __login\_as(user)__ => Simulates a logged in user by setting session[:user_id] to the passed in user's id.
+  * __publish\_all\_pages__ => Page.all.each(:&publish)
   
 Example:
 
