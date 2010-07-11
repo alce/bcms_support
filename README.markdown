@@ -73,6 +73,8 @@ To use them, just require them wherever you require factory_girl
 
     require "factory_girl"
     require "bcms_support/factories"
+    
+You can define your module's factories the way you normally do, just keep in mind that you cannot define factories with the same names enlisted above.
 
 ## Usage
 
