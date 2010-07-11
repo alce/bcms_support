@@ -5,4 +5,3 @@ require 'spec'
 require 'active_record'
 require 'bcms_schema'
 require 'bcms_models'
-
