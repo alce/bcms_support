@@ -1,6 +1,6 @@
 ## BcmsSupport
 
-BcmsSupport is a small but growing set of methods that aims to make testing BrowserCMS modules easier, particularly functional and integration tests.
+BcmsSupport is a small but growing set of methods that aims to make testing BrowserCMS modules easier.
 
 ## Installation
 
@@ -45,6 +45,34 @@ Edit config/environments/cucumber.rb
 Edit features/support/env.rb
 
     require "bcms_support/cucumber"
+    
+### Factories
+
+This library includes factory definitions for the following BrowserCMS models (lifted directly from BrowserCMS' source):
+
+  * Category
+  * CategoryType
+  * Connector
+  * FileBlock
+  * Group
+  * GroupType
+  * HtmlBlock
+  * ImageBlock
+  * Link
+  * Page
+  * PagePartial
+  * PageRoute
+  * PageTemplate
+  * Permission
+  * Section
+  * Site
+  * Task
+  * User
+  
+To use them, just require them wherever you require factory_girl
+
+    require "factory_girl"
+    require "bcms_support/factories"
 
 ## Usage
 
