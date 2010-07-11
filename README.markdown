@@ -32,8 +32,8 @@ Edit spec/spec_helper.rb
 
     require "bcms_support"
     
-    class ActiveSupport::TestCase
-      include BcmsSupport::Test
+    Spec::Runner.configure do |config|
+      config.include BcmsSupport::Test
     end
     
 ### Cucumber
